@@ -1,6 +1,6 @@
 # Notification Group
 
-Notification Grouping and badge in Home scene by FCM
+This example demonstrate about How to group android notifications like whatsapp
 
 ## Test FCM Notification with POSTMAN
 
