@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import android.widget.Toast
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.iid.FirebaseInstanceId
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun processIntent(intent: Intent?) {
         Log.d(TAG, "processIntent.func")
+        val textView: TextView = findViewById(R.id.textView)
         if (intent != null) {
             var body = intent.getStringExtra(getString(R.string.message_extra))
             if (body.isNullOrEmpty()) {
@@ -51,6 +53,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 // have body to action
                 Log.d(TAG, "Body is ${body}")
+                textView.setText(body)
             }
         }
     }

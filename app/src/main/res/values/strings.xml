@@ -5,4 +5,5 @@
     <string name="default_notification_channel_name">notification_0x42</string>
     <string name="default_notification_channel_description">notification_description</string>
     <string name="message_extra">message_extra</string>
+    <string name="notification_data">notification data</string>
 </resources>
