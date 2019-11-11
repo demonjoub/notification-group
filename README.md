@@ -21,5 +21,5 @@ Body Messages (JSON)
  }
 }
 ```
-Image Preview 
+## Image preview
 [![N|Preview](https://github.com/demonjoub/notification-group/blob/master/screenshot.jpg)](https://github.com/demonjoub/notification-group)
