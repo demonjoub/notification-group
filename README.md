@@ -20,3 +20,5 @@ Body Messages (JSON)
      "badge": 3
  }
 }
+```
+[![N|Preview](https://github.com/demonjoub/notification-group/blob/master/screenshot.jpg)](https://github.com/demonjoub/notification-group)
